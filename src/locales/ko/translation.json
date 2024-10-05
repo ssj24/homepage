@@ -1,0 +1,24 @@
+{
+  "nav": {
+    "home": "홈",
+    "features": "특징",
+    "review": "후기",
+    "video": "영상",
+    "contact": "문의",
+    "mypage": "마이페이지",
+    "logout": "로그아웃",
+    "login": "로그인",
+    "register": "회원가입",
+    "language": "언어설정",
+    "help": "고객센터"
+  },
+  "header": {
+    "title": "심스페이스",
+    "subtitle": "AI마음일기",
+    "btn": "체험하러 가기"
+  },
+  "features": {
+    "dashboard": "대시보드",
+    "shopping-mall": "쇼핑몰 관리"
+  }
+}

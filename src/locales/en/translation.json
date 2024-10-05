@@ -1,0 +1,24 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "review": "Reviews",
+    "video": "Video",
+    "contact": "Contact",
+    "mypage": "My page",
+    "logout": "Sign Out",
+    "login": "Sign In",
+    "register": "Sign Up",
+    "language": "Languages",
+    "help": "Help"
+  },
+  "header": {
+    "title": "seamspace",
+    "subtitle": "AI mind diary",
+    "btn": "Try Now"
+  },
+  "features": {
+    "dashboard": "Dashboard",
+    "shopping-mall": "Shopping Mall"
+  }
+}
