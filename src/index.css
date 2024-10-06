@@ -62,6 +62,9 @@ code {
   display: flex;
   align-items: center;
 }
+.reverse {
+  flex-direction: row-reverse;
+}
 
 .row.between {
   justify-content: space-between;
