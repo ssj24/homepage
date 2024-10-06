@@ -5,6 +5,7 @@ import HorizontalMenu from './HorizontalMenu';
 import List from './List';
 import Contact from './Contact';
 import Footer from './Footer';
+import utils from './Utils';
 
 function Main(props) {
   useEffect(() => {
@@ -35,7 +36,8 @@ function Main(props) {
         <VerticalMenu />
       </div>
       <div id='menu2'>
-        <HorizontalMenu />
+        <HorizontalMenu title='학생' images={['bg1', 'bg2', 'bg3', 'bg4', 'bg5', 'bg6', 'bg7', 'bg8']}/>
+        {/* <HorizontalMenu title='선생님' images={[utils.bg1, utils.bg2, utils.bg3, utils.bg4, utils.bg5, utils.bg6, utils.bg7, utils.bg8]}/> */}
       </div>
       <div id='menu3'>
         <List />

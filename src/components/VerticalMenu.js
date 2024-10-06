@@ -1,10 +1,13 @@
 import React, {useEffect} from 'react';
 import '../assets/styles/VerticalMenu.css';
 import Card from './Card';
+import AOS from "aos";
 
 
 function VerticalMenu(props) {
-  
+  useEffect(() => {
+    AOS.init();
+  },[])
   const colors = [
     "#FFB3BA", // Light pink
     "#FFDFBA", // Peach
@@ -17,11 +20,16 @@ function VerticalMenu(props) {
   ];
   return (
     <div>
-      <h2>심스페이스 주요 기능</h2>
-      <div className='vertical-row' style={{ gap: '30px' }}>
+      <h2
+        data-aos="fade-down"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-offset="200"
+        data-aos-duration="1500"
+      >심스페이스 주요 기능</h2>
+      <div className='vertical-row' style={{ margin: '100px 0', gap: '100px' }}>
         {[...Array(8)].map((e, i) => <span className="busterCards" key={i}>
           <Card
-            isOdd={i%2}
+            idx={i}
             color={colors[i]}
           />
         </span>)}
